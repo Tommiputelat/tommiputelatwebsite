@@ -1,0 +1,116 @@
+/* Importation de polices Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* Réinitialisation de base et styles globaux */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header, section, footer {
+    padding: 20px;
+    margin: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 20px 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Section À propos */
+.profile-section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px; /* Ajout d'un rayon de bordure pour un look plus doux */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ombre portée pour plus de profondeur */
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 80px; /* Taille réduite pour la photo */
+}
+
+.linkedin-qr img {
+    border-radius: 10px; /* Style pour le QR Code */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Section Contact */
+#contact form {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px; /* Réduction du padding pour diminuer la hauteur du pied de page */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px; /* Réduction de la taille de la police pour économiser de l'espace */
+}
+

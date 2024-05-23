@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio & CV de Tommi Putelat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tommi Putelat</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="CV TOMMI PUTELAT.pdf" target="_blank">CV</a></li>
+                <li><a href="PORTFOLIO.pdf" target="_blank">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="profile-section">
+            <img src="Photo linkedin.jpg" alt="Photo de Tommi Putelat" class="profile-pic">
+            <p>Étudiant ingénieur, passionné par l'innovation, la mécanique et le développement de nouvelles solutions technologiques. Curieux et motivé, je recherche constamment des défis pour aiguiser mes compétences techniques et appliquer mes connaissances dans des projets concrets et innovants.</p>
+        </div>
+        <div class="linkedin-qr">
+            <a href="https://www.linkedin.com/in/tommi-putelat-6160362b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                <img src="QR CODE LINKED IN.JPG" alt="QR Code LinkedIn Tommi Putelat" style="width: 100px; height: 100px;">
+            </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="sendmail.php" method="POST">
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Tommi Putelat. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
